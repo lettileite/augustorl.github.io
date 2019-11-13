@@ -4,7 +4,7 @@ export const Tech = styled.section`
    {
     width: 100%;
     margin: 0 auto;
-    background: #54fdd7;
+    background: #3bd783;
     color: #000;
   }
 `;
@@ -32,7 +32,7 @@ export const TechList = styled.div`
     display: block;
     width: 50px;
     height: 4px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 0.9rem 0;
   }
   ul {

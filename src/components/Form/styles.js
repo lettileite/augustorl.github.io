@@ -6,7 +6,7 @@ export const Container = styled.div`
     margin: 0 auto;
   }
   button {
-    background-color: #54fdd7;
+    background-color: #3bd783;
     color: rgba(0, 0, 0, 0.95);
     border-radius: 25px 25px 25px;
     padding: 10px 10px 10px 10px;
@@ -32,7 +32,7 @@ export const ContactForm = styled.div`
   }
 
   h1 {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.9);
     font-size: 30px;
     letter-spacing: 0.09rem;
     font-family: 'EksellDisplayWeb-Stencil';
@@ -45,7 +45,7 @@ export const ContactForm = styled.div`
     display: block;
     width: 50px;
     height: 4px;
-    background-color: #54fdd7;
+    background-color: #3bd783;
     margin: 0.9rem 0;
   }
   ul {

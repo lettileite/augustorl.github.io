@@ -26,9 +26,27 @@ export default function Header() {
             do cliente e do usuário mais satisfatória.
           </p>
           <SocialMedia>
-            <FaGithub />
-            <FaLinkedinIn />
-            <IoIosPaper />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/augustorl"
+            >
+              <FaGithub />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/augusto-leite-a3729412b/"
+            >
+              <FaLinkedinIn />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/augustorl/augustorl.github.io/blob/master/files/curriculo.pdf"
+            >
+              <IoIosPaper />
+            </a>
           </SocialMedia>
         </HeaderText>
       </Container>

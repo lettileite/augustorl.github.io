@@ -61,7 +61,7 @@ export const HeaderText = styled.div`
   }
   h1 {
     padding: 0;
-    color: #54fdd7;
+    color: #3bd783;
     font-size: 4rem;
     letter-spacing: 0.4rem;
     font-family: 'EksellDisplayWeb-Stencil';
@@ -75,7 +75,7 @@ export const HeaderText = styled.div`
     display: block;
     width: 50px;
     height: 4px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     margin: 0.9rem 0;
   }
 
@@ -134,11 +134,11 @@ export const SocialMedia = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    max-width: 570px;
+    max-width: 570px;}
 
     svg {
       display: flex;
-      color: #fff;
+      color: rgba(255, 255, 255, 0.9);
       text-decoration: none;
       font-size: 45px;
       margin: 1.5rem;
@@ -148,10 +148,14 @@ export const SocialMedia = styled.div`
     }
     svg:hover {
       transform: translateY(-3px);
-      color: #54fdd7;
+      color: #3bd783;
     }
+  }
+  a {
+    outline: none;
   }
   @media (max-width: 866px) {
     display: none;
   }
+  
 `;
