@@ -2,12 +2,15 @@
   "name": "portfolioreact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://augustorl.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.7",
     "axios": "^0.19.0",
     "formik": "^2.0.3",
+    "gh-pages": "^2.1.1",
+    "netlify-cli": "^2.21.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-google-recaptcha": "^2.0.1",
@@ -20,7 +23,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "browserslist": {
