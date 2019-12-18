@@ -15,15 +15,15 @@ export default function Techs() {
         <ul>
           <li>
             <img src={html} alt="Html" />
-            <p>HTML5</p>
+            <p>HTML</p>
           </li>
           <li>
             <img src={css} alt="Css" />
-            <p>CSS3</p>
+            <p>CSS</p>
           </li>
           <li>
             <img src={javascript} alt="JavaScript" />
-            <p>JavaScript</p>
+            <p>Javascript</p>
           </li>
           <li>
             <img src={react} alt="React" />

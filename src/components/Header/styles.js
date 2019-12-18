@@ -142,6 +142,7 @@ export const SocialMedia = styled.div`
       text-decoration: none;
       font-size: 45px;
       margin: 1.5rem;
+      margin-top: 20px;
     }
     svg {
       transition: transform 0.2s;

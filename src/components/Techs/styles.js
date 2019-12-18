@@ -24,7 +24,7 @@ export const TechList = styled.div`
     font-family: 'EksellDisplayWeb-Stencil';
     text-transform: uppercase;
     font-weight: 150;
-    padding-top: 25px;
+    padding-top: 5px;
   }
 
   h1::after {
@@ -76,7 +76,8 @@ export const TechList = styled.div`
       display: none;
     }
     ul li > img {
-      width: 50%;
+      width: 55%;
+      padding: 20px 0px 20px 0px;
     }
   }
 `;

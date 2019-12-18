@@ -9,6 +9,7 @@ export const Container = styled.div`
     background-color: #3bd783;
     color: rgba(0, 0, 0, 0.95);
     border-radius: 25px 25px 25px;
+    margin-top: 15px;
     padding: 10px 10px 10px 10px;
     width: 90px;
     font-family: 'Roboto regular';

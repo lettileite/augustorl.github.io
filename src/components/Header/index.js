@@ -43,7 +43,7 @@ export default function Header() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/augustorl/augustorl.github.io/blob/master/files/curriculo.pdf"
+              href="http://augustoleite.com/curriculo.pdf"
             >
               <IoIosPaper />
             </a>
