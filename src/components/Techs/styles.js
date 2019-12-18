@@ -61,7 +61,7 @@ export const TechList = styled.div`
   }
   ul li p {
     display: flex;
-    padding: 1.5rem;
+    padding: 2rem;
     font-size: 1.5rem;
     justify-content: center;
   }

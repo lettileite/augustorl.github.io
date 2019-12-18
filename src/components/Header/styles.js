@@ -93,12 +93,12 @@ export const HeaderText = styled.div`
   p {
     color: white;
     margin-top: 20px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: lighter;
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto';
     max-width: 560px;
-    line-height: 25px;
-    text-align: justify;
+    line-height: 30px;
+    text-align: left;
   }
   @media (max-width: 886px) {
      {
@@ -125,6 +125,7 @@ export const HeaderText = styled.div`
     p {
       font-size: 1.6rem;
       margin: 0 auto;
+      text-align: left;
     }
   }
 `;

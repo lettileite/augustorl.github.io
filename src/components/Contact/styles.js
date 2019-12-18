@@ -46,7 +46,7 @@ export const ContactForm = styled.div`
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(255, 255, 255, 0.85);
     opacity: 1; /* Firefox */
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto';
     font-size: 15px;
   }
   :-ms-input-placeholder {
@@ -87,21 +87,24 @@ export const ContactForm = styled.div`
     padding-top: 1rem;
     resize: none;
     font-size: 15px;
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto';
   }
   button {
     background-color: #3bd783;
     color: rgba(0, 0, 0, 0.95);
     border-radius: 25px 25px 25px;
-    padding: 10px 10px 10px 10px;
-    width: 90px;
-    font-family: 'Roboto regular';
+    padding: 15px 15px 15px 15px;
+    width: 150px;
+    font-family: 'Roboto';
     font-size: 15px;
     font-weight: bolder;
     letter-spacing: 0.07rem;
     outline: none;
     border: 0;
     float: right;
+    &:hover {
+      background-color: #fff;
+    }
   }
   @media (max-width: 866px) {
     h1 {

@@ -12,7 +12,7 @@ export const Container = styled.div`
     margin-top: 15px;
     padding: 10px 10px 10px 10px;
     width: 90px;
-    font-family: 'Roboto regular';
+    font-family: 'Roboto';
     font-size: 15px;
     font-weight: bolder;
     letter-spacing: 0.07rem;
@@ -61,7 +61,7 @@ export const ContactForm = styled.div`
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(255, 255, 255, 0.85);
     opacity: 1; /* Firefox */
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto';
     font-size: 15px;
   }
   :-ms-input-placeholder {
@@ -102,7 +102,7 @@ export const ContactForm = styled.div`
     padding-top: 1rem;
     resize: none;
     font-size: 15px;
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto';
   }
   @media (max-width: 866px) {
     h1 {
