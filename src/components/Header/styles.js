@@ -96,7 +96,7 @@ export const HeaderText = styled.div`
     font-size: 1.5rem;
     font-weight: lighter;
     font-family: 'Roboto';
-    max-width: 560px;
+    max-width: 555px;
     line-height: 30px;
     text-align: left;
   }

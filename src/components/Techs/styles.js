@@ -43,13 +43,16 @@ export const TechList = styled.div`
     margin: 0 -1.5rem;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 5px;
   }
   ul li {
     display: block;
     transition: transform 0.2s;
+  }
+  ul li:last-child {
+    margin-bottom: 10px;
   }
   ul li > img {
     width: 60%;

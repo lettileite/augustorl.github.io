@@ -19,6 +19,10 @@ export const Container = styled.div`
     outline: none;
     border: 0;
     float: right;
+    transition: all 0.5s ease-out;
+    &:hover {
+      background-color: #22804e;
+    }
   }
 `;
 

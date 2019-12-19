@@ -19,11 +19,10 @@ export default function Header() {
           <h2>Desenvolvedor front-end</h2>
           <h1>Augusto Leite</h1>
           <p>
-            Nasci em florianópolis e tenho 27 anos. Sempre tive interesse em
-            tecnologia tendo contato com computador desde criança. Sou um
-            apaixonado por desenvolvimento e nos projetos em que participo prezo
-            por códigos limpos e designs minimalistas que tornam a experiência
-            do cliente e do usuário mais satisfatória.
+            Sempre tive interesse em tecnologia tendo contato com computador
+            desde criança. Sou um apaixonado por desenvolvimento e nos projetos
+            em que participo prezo por códigos limpos e designs minimalistas que
+            tornam a experiência do cliente e do usuário mais satisfatória.
           </p>
           <SocialMedia>
             <a
